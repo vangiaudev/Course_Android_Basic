@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9BEFFA"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn muốn hiển thị ảnh nào?"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold|italic" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="107dp">
+
+        <RadioButton
+            android:id="@+id/radAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8EE93"
+            android:checked="false"
+            android:text="Tác Giả Phần Mềm" />
+
+        <RadioButton
+            android:id="@+id/radLogo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFF495"
+            android:checked="true"
+            android:text="Logo Trường Đại Học Sư Phạm TP.HCM" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imgHienThi"
+        android:layout_width="300dp"
+        android:layout_height="328dp"
+        android:layout_gravity="center"
+        tools:srcCompat="@drawable/logodhsp" />
+
+    <ImageButton
+        android:id="@+id/btnThoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#B61111"
+        android:scrollbarSize="8dp"
+        app:srcCompat="@android:drawable/ic_input_delete" />
+
+</LinearLayout>

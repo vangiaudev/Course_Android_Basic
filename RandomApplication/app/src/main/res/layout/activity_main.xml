@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF098">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="48dp"
+        android:shadowColor="#3F51B5"
+        android:text="Ứng dụng random ngẫu nhiên"
+        android:textAllCaps="true"
+        android:textColor="#400288"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Random"
+        android:textAllCaps="false" />
+
+    <EditText
+        android:id="@+id/txtMin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRandom"
+        android:layout_below="@+id/txtNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="184dp"
+        android:ems="10"
+        android:hint="Min"
+        android:inputType="number"
+        android:textColor="#FF9800"
+        android:textColorHint="#3F51B5" />
+
+    <EditText
+        android:id="@+id/txtMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnRandom"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="108dp"
+        android:ems="10"
+        android:hint="Max"
+        android:inputType="number"
+        android:textColor="#FFC107"
+        android:textColorHint="#3F51B5" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRandom"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="Result"
+        android:textColor="#F80000"
+        android:textColorHint="#76DA03"
+        android:textSize="36sp"
+        android:textStyle="normal" />
+</RelativeLayout>

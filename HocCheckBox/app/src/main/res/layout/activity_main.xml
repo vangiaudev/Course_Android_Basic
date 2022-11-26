@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#6AED0C"
+        android:fontFamily="@font/limelight"
+        android:text="Bạn thích học những chuyên ngành nào trong lĩnh vực CNTT ?"
+        android:textAllCaps="false"
+        android:textColor="#9C27B0"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/chkAndroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập Trình Android" />
+
+    <CheckBox
+        android:id="@+id/chkFrontEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập Trình Web Front End" />
+
+    <CheckBox
+        android:id="@+id/chkBackEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lập Trình Web BackEnd" />
+
+    <CheckBox
+        android:id="@+id/chkKHMT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Khoa Học Máy Tính" />
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn Chuyên Ngành" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Các chuyên ngành bạn chọn là:"
+        android:textColor="#AF0F0F"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtLuaChon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Các lựa chọn sẽ hiển thị ở đây" />
+
+</LinearLayout>

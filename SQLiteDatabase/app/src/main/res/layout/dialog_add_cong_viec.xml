@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#00BCD4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Add Cong Viec"
+        android:textStyle="bold"
+        android:textColor="#ff00"
+        android:gravity="center"
+        android:padding="10dp"
+        android:id="@+id/txtAdd"/>
+
+    <EditText
+        android:hint="Nhap ten cong viec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTenCV"
+        android:layout_below="@+id/txtAdd"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:layout_below="@+id/edtTenCV"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:id="@+id/btnCancel"
+        android:layout_below="@id/edtTenCV"
+        android:layout_toRightOf="@+id/btnAdd"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+</RelativeLayout>

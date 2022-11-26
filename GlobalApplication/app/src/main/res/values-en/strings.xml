@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Global Application</string>
+    <string name="text_TieuDe">Information</string>
+    <string name="hint_HoTen">Input name</string>
+    <string name="hint_Email">Input email</string>
+    <string name="hint_DienThoai">Input phone</string>
+    <string name="text_XacNhan">Accept</string>
+</resources>

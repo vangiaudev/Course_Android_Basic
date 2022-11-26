@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "441639588622",
+    "project_id": "real-time-e5b5c",
+    "storage_bucket": "real-time-e5b5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441639588622:android:15abb020a532e9cc293d5f",
+        "android_client_info": {
+          "package_name": "vangiau.example.realtime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441639588622-l0ub6nbua7ugihhk0gkaoaku6d1spq9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIqhwczeP4tsCS0DaxHirEGw9wKI7amYg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "441639588622-l0ub6nbua7ugihhk0gkaoaku6d1spq9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710805242726",
+    "project_id": "save-firebase-e365b",
+    "storage_bucket": "save-firebase-e365b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710805242726:android:c30fcbf28e2a5d4232fea7",
+        "android_client_info": {
+          "package_name": "vangiau.example.savefirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710805242726-68r5vvkni4vn54mptt63v3n7dfo8q8k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0DyCqm_U6JmoR5fbh2oR96pltxGhOk6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710805242726-68r5vvkni4vn54mptt63v3n7dfo8q8k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

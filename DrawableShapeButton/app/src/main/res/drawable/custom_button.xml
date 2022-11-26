@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#ff00"/>
+    <size android:height="150dp"
+        android:width="150dp"/>
+
+<!--Bo góc-->
+<!--    <corners android:topLeftRadius="100dp"-->
+<!--        android:bottomLeftRadius="100dp"-->
+<!--        android:bottomRightRadius="100dp"-->
+<!--        android:topRightRadius="100dp"/>-->
+    <corners android:radius="100dp"/>
+    <padding android:bottom="100dp"/>
+    <stroke android:color="#ff0"
+        android:width="5dp"
+        android:dashGap="10dp"
+        android:dashWidth="50dp"/>
+    <gradient android:angle="45"
+        android:startColor="#f0f"
+        android:gradientRadius="10dp"
+        android:endColor="#FFEB3B"/>
+</shape>

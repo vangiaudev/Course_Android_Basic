@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnCheKhuatToanBo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Che Khuất Toàn Bộ Màn Hình"
+        android:onClick="xuLyCheKhuatToanBo"/>
+
+    <Button
+        android:id="@+id/btnCheKhuat1Phan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Che Khuất 1 Phần Màn Hinh"
+        android:onClick="xuLyCheKhuat1Phan"/>
+</LinearLayout>

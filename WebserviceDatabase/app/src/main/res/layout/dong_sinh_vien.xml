@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên sinh viên"
+        android:textSize="24sp"
+        android:textColor="#f0f"
+        android:textStyle="bold"
+        android:id="@+id/txtHoTenCustom"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Năm sinh : 2001"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtHoTenCustom"
+        android:layout_marginTop="10dp"
+        android:textColor="#3F00AF"
+        android:id="@+id/txtNamSinhCustom"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ: Cà Mau"
+        android:textSize="20sp"
+        android:textColor="#FF9800"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtHoTenCustom"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtDiaChiCustom"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgEdit"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_delete"
+        android:layout_toLeftOf="@+id/imgEdit"
+        android:layout_marginTop="10dp"
+        android:id="@+id/imgDelete"/>
+
+
+</RelativeLayout>

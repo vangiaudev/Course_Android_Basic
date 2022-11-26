@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:text="Nhập số a:"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtSoA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mời bạn nhập số A"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Nhập số b:" />
+
+    <EditText
+        android:id="@+id/txtSoB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mời bạn nhập số B"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnOnClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:onClick="xuLyPhepCong"
+        android:text="(+) onClickXML"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnAnomous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFEB3B"
+        android:backgroundTint="#FFFFFF"
+        android:text="(-) Anomous Listener"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnNhan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="(*) Variable Listener"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/btnChia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="(/) Variable Listener"
+                android:textAllCaps="false" />
+        </TableRow>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity as Listener"
+        android:textAllCaps="false"
+        app:icon="@android:drawable/btn_star_big_on"
+        app:iconGravity="textEnd" />
+
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Explicit Class Listener (Exit)"
+        android:textAllCaps="false"
+        android:textColor="#FFEB3B"
+        android:textColorHighlight="#FFC107"
+        android:textStyle="bold|italic"
+        app:icon="@android:drawable/ic_delete"
+        app:iconGravity="textEnd" />
+
+    <Button
+        android:id="@+id/btnDoiManHinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="xyLyDoiManHinhKhac"
+        android:text="Change Screen" />
+
+</LinearLayout>

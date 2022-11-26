@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Hoc Quan Ly Ket Qua Tra Ve"
